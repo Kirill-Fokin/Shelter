@@ -1,0 +1,12 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width:120rem;
+  padding: 0 12rem;
+}
+
+
