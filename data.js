@@ -1,4 +1,4 @@
-[
+export const data =[
   {
     "name": "Jennifer",
     "img": "../../assets/images/jennifer.png",
