@@ -5,61 +5,141 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shelter</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="../main/style.css">
+  <link type="Image/x-icon" href="/assets/logos/favico.png" rel="icon">
 </head>
-<body class="body">
-  <header class="header">
-    <div class="wrapper header__wrapper">
-      <div class="logo logo__wrapper">
-        <a href="#" class="logo">
-          <div class="logo__title">Cozy House</div>
-          <span class="logo__text">Shelter for pets in Boston</span>
-         </a>
+<div class="body-wrapper">
+  <body class="body">
+  
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <div class="logo logo__wrapper">
+          <a href="#" class="logo">
+            <div class="logo__title">Cozy House</div>
+            <span class="logo__text">Shelter for pets in Boston</span>
+          </a>
+        </div>
+        <div class="burger">☰</div>
+        <nav class="header__navigation">
+          <ul class="navigation">
+              <li class="navigation__item"><a class="navigation__link" href="#">About the Shelter</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#">Our pets</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#">Help the shelter</a></li>
+              <li class="navigation__item"><a  class="navigation__link"href="#">Contacts</a></li>
+          </ul>
+      </nav>
       </div>
-      <div class="burger">☰</div>
-      <nav class="header__navigation">
-        <ul class="navigation">
-            <li class="navigation__link"><a href="#">About the Shelter</a></li>
-            <li class="navigation__link"><a href="#">Our pets</a></li>
-            <li class="navigation__link"><a href="#">Help the shelter</a></li>
-            <li class="navigation__link"><a href="#">Contacts</a></li>
-        </ul>
-    </nav>
-    </div>
-  </header>
-   <main class="main">
-     
-  </main>
-  <footer class="footer">
-    <div class="wrapper footer__wrapper"> 
-     <div class="footer__content">
-      <div class="footer__contancts">
-        <h3 class="footer__contancts__title">For questions and suggestions</h3>
-        <div class="mail">
-          <img src="/assets/logos/icon-email.png" alt="" class="logo">
-          <span class="item">email@shelter.com</span>
-        </div>
-        <div class="phone">
-          <img src="/assets/logos/icon-phone.png" alt="" class="logo">
-          <span class="item">+13 674 567 75 54</span>
-        </div>
+    </header>
+    <main class="main">
+      <section class="Our-Friends ">     <!--  добавить стрелки из макета    -->
+        <div class="wrapper Our-Friends__wrapper">
+         <h2 class="title Our-Friends2__title">Our friends who <br>
+          are looking for a house</h2>
+          <div class="cards-layot cards__container cards-layot_our_pets" >
+             <div class="card card_our-pets" data-number="1"> 
+               <img class='pets__image1' src="assets/cards/pets-katrine.png" alt="cat-image">
+               <h5 class="card__title pets__title1">Katrine</h5>
+               <button class="card__button">Learn more</button>
+             </div>
+             <div class="card card_our-pets" data-number="2">
+              <img class='pets__image2' src="assets/cards/pets-jennifer.png" alt="dog-image">
+              <h5 class="card__title pets__title2">Jennifer</h5>
+              <button class="card__button">Learn more</button>
+            </div>
+            <div class="card card_our-pets" data-number="3">
+              <img class='pets__image3' class='pets__image3'src="assets/cards/pets-woody.png" alt="dog-image">
+              <h5 class="card__title pets__title3" >Woody</h5>
+              <button class="card__button">Learn more</button>
+            </div>
+            <div class="card card_our-pets Sophia" data-number="4">
+              <img class='pets__image4' src="assets/cards/pets-sophia.jpg" alt="dog-image">
+              <h5 class="card__title pets__title4">Sophia</h5>
+              <button class="card__button">Learn more</button>
+            </div>
+            <div class="card card_our-pets Timmy" data-number="5">
+              <img class='pets__image5' src="assets/cards/pets-timmy.jpg" alt="dog-image">
+              <h5 class="card__title pets__title5" >Timmy</h5>
+              <button class="card__button">Learn more</button>
+            </div>
+          
+            <div class="card card_our-pets Charley" data-number="6">
+              <img class='pets__image6' src="assets/cards/pets-charly.jpg" alt="dog-image">
+              <h5 class="card__title pets__title6">Charly</h5>
+              <button class="card__button">Learn more</button>
+            </div>
+            <div class="card card_our-pets Scarlet" data-number="7">
+              <img  class='pets__image7'src="assets/cards/pets-scarlet.jpg" alt="dog-image">
+              <h5 class="card__title pets__title7" >Scarlet</h5>
+              <button class="card__button">Learn more</button>
+            </div>
+            <div class="card card_our-pets Woody" data-number="8">
+              <img class='pets__image8' src="assets/cards/pets-freddie.jpg" alt="dog-image">
+              <h5 class="card__title pets__title8" >Freddie</h5>
+              <button class="card__button">Learn more</button>
+              
+            </div>
+         
+          </div>
+           <div class="pages pages__wrapper">
+        <span class="pages__backAll page">>></span>
+        <span class="pages__back page">></span>
+        <span class="pages__current page">1</span>
+        <span class="pages__forward page">></span>
+        <span class="pages__allforward page">>></span>
       </div>
-      <div class="footer__location">
-        <h3 class="footer__contancts__title">We are waiting for your visit</h3>
-        <div class="mail">
-          <img src="/assets/logos/icon-marker.png" alt="">
-          <span class="item">1 Central Street, Boston (entrance from the store)</span>
-        </div>
-        <div class="phone">
-          <img src="/assets/logos/icon-marker.png" alt="">
-          <span class="item">18 South Park, London </span>
-        </div>
-      </div>
-    </div>
-      <img src="/assets/main-pictures/footer-puppy.png" alt="puppy">
       
     </div>
-  </footer> 
-  <script src="/app.js"></script>
-</body>
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper"> 
+      <div class="footer__content">
+        <div class="footer__contancts">
+          <h3 class="footer__contancts__title">For questions and suggestions</h3>
+          <div class="mail">
+            <img src="/assets/logos/icon-email.png" alt="" class="logo">
+            <span class="item">email@shelter.com</span>
+          </div>
+          <div class="phone">
+            <img src="/assets/logos/icon-phone.png" alt="" class="logo">
+            <span class="item">+13 674 567 75 54</span>
+          </div>
+        </div>
+        <div class="footer__location">
+          <h3 class="footer__contancts__title">We are waiting for your visit</h3>
+          <div class="mail">
+            <img src="/assets/logos/icon-marker.png" alt="">
+            <span class="item">1 Central Street, Boston (entrance from the store)</span>
+          </div>
+          <div class="phone">
+            <img src="/assets/logos/icon-marker.png" alt="">
+            <span class="item">18 South Park, London </span>
+          </div>
+        </div>
+      </div>
+        <img class="footer__image" src="/assets/main-pictures/footer-puppy.png" alt="puppy">
+      </div>
+    </footer> 
+    <div class="modal">
+      <div class="modal__box">
+        <div class="cross-button">x</div>
+        <img class="modal__image"></img>
+        <div class="modal__content">
+          <h5 class="modal__title">Jennifer</h5>
+          <h4 class="modal__subtitle">Jennifer</h4>
+          <p class="modal__text"></p>
+          <div class="modal__subtext">
+            <div class="sybtext__par sybtextOne"></div>
+            <div class="sybtext__par sybtextSecond"></div>
+            <div class="sybtext__par sybtextThird"></div>
+            <div class="sybtext__par sybtextFourth"></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <script src="../pets/app.js"></script>
+  </body>
+
+</div>
 </html>
